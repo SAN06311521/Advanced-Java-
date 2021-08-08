@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" content="text/html; charset=UTF-8">
+<title>Blob By Sanya</title>
+</head>
+<body>
+	<h2>Enter info here</h2>
+        <form enctype="multipart/form-data" action="addphoto" method="post">
+            <table>
+                <tr>
+                    <td>Enter Image Name :</td>
+                    <td><input  type="text"  name="imgname"/></td>
+                </tr>
+                <tr>
+                    <td>Select the picture </td>
+                    <td><input type="file"  name="addphoto" />
+                </tr>
+            </table>
+            <p/>
+            <input type="submit" value="Add Picture"/>
+        </form>
+        
+        <br/><br/><br/><br/>
+        
+        <form enctype="multipart/form-data" action="displayphoto" method="get">
+            <table>
+                <tr>
+                    <td>Enter Image Name :</td>
+                    <td><input  type="text"  name="imgname"/></td>
+                </tr>
+            </table>
+            <p/>
+            <input type="submit" value="display Picture"/>
+        </form>
+        <p/>
+</body>
+</html>
